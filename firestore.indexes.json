@@ -1,0 +1,19 @@
+{
+"indexes": [],
+"fieldOverrides": [
+{
+"collectionGroup": "dev_logs",
+"fieldPath": "embedding",
+"indexes": [
+{
+"queryScope": "COLLECTION",
+"order": "ASCENDING",
+"vectorConfig": {
+"dimension": 768,
+"flat": {}
+}
+}
+]
+}
+]
+}
